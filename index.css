@@ -7,7 +7,7 @@ body {
 main {
   margin-left: calc((140% - 1350px) / 2);
   margin-right: calc((140% - 1350px) / 2);
-  height: 60%;
+  object-fit: contain;
 }
 
 #left {
@@ -28,12 +28,13 @@ main {
   display: inline-block;
   object-fit: contain;
   width: 100%;
+  margin-top: 60px;
 }
 
 #engineer {
   display: inline-block;
   object-fit: contain;
-  width: 100%;
+  width: 80%;
 }
 
 #nr404 {
@@ -47,12 +48,15 @@ h1 {
   color: #ffc91b;
   font-weight: lighter;
   font-size: 50px;
+  margin: 0;
 }
 
 p {
   display: inline-block;
   color: #fdfefe;
   font-size: 20px;
+  margin-top: 0;
+  font-weight: lighter;
 }
 
 #tools {
